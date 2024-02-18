@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import Navbar from './component/web/Navbar';
+// import Sidebar from './component/web/Sidebar';
+// import Footer from './component/web/Footer';
+// import Search from './component/Todo/Search';
+// import Button from './component/Todo/Button';
+// import List from './component/Todo/List';
+// import Header from './component/bootrapweb/Header';
+// import Main from './component/bootrapweb/Main';
+// import Footer from './component/bootrapweb/Footer';
+import Task1 from './component/Task/Task1';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <div>
+      <Navbar />
+      <div className='col-3'>
+        <Sidebar />
+      </div>
+      <Footer />
+    </div> */}
+
+      {/* <div className='conatiner'>
+        <div className='col-3'>
+          <Search />
+          <Button />
+        </div>
+      </div>
+
+      <List /> */}
+      {/* <div>
+        <Header />
+        <Main />
+        <Footer />
+
+      </div> */}
+      <div>
+        <Task1 />
+
+      </div>
+
+    </>
   );
 }
 
