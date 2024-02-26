@@ -9,7 +9,9 @@ import './App.css';
 // import Header from './component/bootrapweb/Header';
 // import Main from './component/bootrapweb/Main';
 // import Footer from './component/bootrapweb/Footer';
-import Task1 from './component/Task/Task1';
+// import Task1 from './component/Task/Task1';
+import Home from './component/Routing/Home';
+import Nav from './component/Routing/Nav';
 function App() {
   return (
     <>
@@ -35,12 +37,18 @@ function App() {
         <Footer />
 
       </div> */}
-      <div>
+      {/* <div>
         <Task1 />
 
-      </div>
+      </div> */}
 
+      <Home />
+      <Nav />
     </>
+
+
+
+
   );
 }
 
